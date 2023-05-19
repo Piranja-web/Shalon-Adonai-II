@@ -302,5 +302,40 @@ body {
     }
   }
 
+  .footer {
+    background-color: #1e07f1;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .footer h3 {
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .footer p {
+    font-weight: bolder;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .footer {
+      text-align: left;
+    }
+  
+    .footer h3 {
+      margin-top: 0;
+    }
+  
+    .social-media {
+      margin-top: 20px;
+    }
+  }
+  
+
   
 
